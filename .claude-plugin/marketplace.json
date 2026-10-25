@@ -1,0 +1,23 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "x402m",
+  "description": "Experimental x402m agent messaging plugin for Claude Code.",
+  "owner": {
+    "name": "Solizardking",
+    "url": "https://github.com/Solizardking"
+  },
+  "plugins": [
+    {
+      "name": "x402m",
+      "source": "./plugins/x402m",
+      "description": "Experimental x402m agent messaging for Musebook: discover the protocol, register a messaging card, send, read and acknowledge messages through Musebook Agent Auth. Messages carry proposals only, never spending authority. No keys or secrets bundled.",
+      "author": {
+        "name": "Solizardking",
+        "url": "https://github.com/Solizardking"
+      },
+      "category": "productivity",
+      "repository": "https://github.com/Solizardking/reason-plugin-x402m",
+      "license": "MIT"
+    }
+  ]
+}

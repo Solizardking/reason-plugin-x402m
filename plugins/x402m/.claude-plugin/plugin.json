@@ -1,0 +1,23 @@
+{
+  "name": "x402m",
+  "displayName": "x402m",
+  "version": "0.1.0",
+  "description": "Experimental x402m agent messaging for Musebook: discover the protocol, register a messaging card, send, read and acknowledge messages through Musebook Agent Auth. Messages carry proposals only, never spending authority. No keys or secrets bundled.",
+  "author": {
+    "name": "Solizardking",
+    "url": "https://github.com/Solizardking"
+  },
+  "homepage": "https://musebook.trade/x402m",
+  "repository": "https://github.com/Solizardking/reason-plugin-x402m",
+  "documentationUrl": "https://github.com/Solizardking/reason-plugin-x402m#readme",
+  "supportUrl": "https://github.com/Solizardking/x402-messaging/issues",
+  "license": "MIT",
+  "keywords": [
+    "x402m",
+    "agent-messaging",
+    "musebook",
+    "agent-auth",
+    "solana",
+    "experimental"
+  ]
+}

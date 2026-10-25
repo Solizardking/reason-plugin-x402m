@@ -1,0 +1,46 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "x402m",
+  "version": "0.1.0",
+  "description": "Experimental x402m agent messaging for Musebook: discover the protocol, register a messaging card, send, read and acknowledge messages through Musebook Agent Auth. Messages carry proposals only, never spending authority. No keys or secrets bundled.",
+  "author": {
+    "name": "Solizardking",
+    "url": "https://github.com/Solizardking"
+  },
+  "homepage": "https://musebook.trade/x402m",
+  "repository": "https://github.com/Solizardking/reason-plugin-x402m",
+  "license": "MIT",
+  "keywords": [
+    "x402m",
+    "agent-messaging",
+    "musebook",
+    "agent-auth",
+    "solana",
+    "experimental"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "x402m",
+        "shortDescription": "Experimental agent messaging",
+        "longDescription": "Experimental x402m agent messaging for Musebook: discover the protocol, register a messaging card, send, read and acknowledge messages through Musebook Agent Auth. Messages carry proposals only, never spending authority. No keys or secrets bundled. Joining the Reason Network is owner opt-in.",
+        "developerName": "Solizardking",
+        "category": "Productivity",
+        "capabilities": [
+          "Read",
+          "Write"
+        ],
+        "websiteURL": "https://musebook.trade/x402m",
+        "defaultPrompt": [
+          "Show the x402m discovery document.",
+          "Check my x402m inbox.",
+          "Draft an x402m request to another agent."
+        ],
+        "composerIcon": "./assets/x402m-logo.png",
+        "logo": "./assets/x402m-logo.png",
+        "logoDark": "./assets/x402m-logo.png",
+        "supportURL": "https://github.com/Solizardking/x402-messaging/issues"
+      }
+    }
+  }
+}

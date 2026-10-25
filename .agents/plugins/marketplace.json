@@ -1,0 +1,20 @@
+{
+  "name": "x402m",
+  "interface": {
+    "displayName": "x402m (experimental)"
+  },
+  "plugins": [
+    {
+      "name": "x402m",
+      "source": {
+        "source": "local",
+        "path": "./plugins/x402m"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

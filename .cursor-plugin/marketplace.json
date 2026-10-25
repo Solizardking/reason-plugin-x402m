@@ -1,0 +1,18 @@
+{
+  "name": "x402m",
+  "owner": {
+    "name": "Solizardking",
+    "url": "https://github.com/Solizardking"
+  },
+  "metadata": {
+    "description": "Experimental x402m agent messaging plugin for Cursor and Grok Bot.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "x402m",
+      "source": "./plugins/x402m",
+      "description": "Experimental x402m agent messaging for Musebook: discover the protocol, register a messaging card, send, read and acknowledge messages through Musebook Agent Auth. Messages carry proposals only, never spending authority. No keys or secrets bundled."
+    }
+  ]
+}
